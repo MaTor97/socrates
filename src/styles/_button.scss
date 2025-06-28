@@ -1,0 +1,14 @@
+button {
+    z-index: 1000;
+    margin: 10px;
+    width: 100%;
+    cursor: pointer;
+
+    background: transparent;
+    border: none;
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
