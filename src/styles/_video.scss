@@ -35,15 +35,20 @@
     form {
       #answerInput {
         position: absolute;
-          left: -20rem;
-          top: 10rem;
-        width: 35.1rem;
+        left: -205%;
+          top: 80%;
+        width: 55vw;
         height: 100%;
         background-color: rgba(59, 101, 255, 0.69);
         border: 1px solid white;
         color: white;
         padding: 20px;
         resize: none;
+
+        &::placeholder {
+          color: #ccc; // ou la couleur de ton choix
+          opacity: 1;  // utile pour éviter que certains navigateurs grisent trop
+        }
       }
       
       .answer-textarea {
