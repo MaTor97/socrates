@@ -11,3 +11,11 @@ button {
         height: 10vw;
     }
 }
+
+@media (max-width: 768px) {
+    button {
+        img {
+            height: 15vw;
+        }
+    }
+}

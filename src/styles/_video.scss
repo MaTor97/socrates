@@ -8,7 +8,7 @@
   margin-left: 50%;
   transform: translateX(-50%);
   border-radius: 20px;
-  background-color: rgb(20, 20, 35);
+
   
   video {
     border-radius: 20px;
@@ -89,6 +89,38 @@
         100% {
           opacity: 1;
           transform: scaleY(1) scaleX(1);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    width: 100vw;
+    margin: 0;
+    border-radius: 0;
+    top: 0;
+    transform: translateX(0);
+
+    video {
+      border-radius: 0;
+    }
+
+    nav {
+      left: 80%;
+      width: 40%;
+      
+      form {
+       #answerInput {
+          top: 148%;
+          left: -95%;         
+          width: 100vw;
+          height: 73vh;
+        }
+        
+        .answer-textarea {
+          height: 80px;
         }
       }
     }
