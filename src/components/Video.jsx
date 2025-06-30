@@ -72,10 +72,6 @@ const Video = () => {
     }
   }, [count, isReady]);
 
-  useEffect(() => {
-    console.log('Enviraonnement :', import.meta.env);
-  }, []);
-
   // Événement : vidéo terminée
   useEffect(() => {
     const video = videoRef.current;
